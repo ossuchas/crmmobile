@@ -1,1 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@font-face {
+  font-family: AP-Regular;
+  font-style: normal;
+  font-weight: 400;
+  src: url("src/assets/fonts/AP-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: AP-Medium;
+  font-style: normal;
+  font-weight: 400;
+  src: url("src/assets/fonts/AP-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: AP-MediumItalic;
+  font-style: italic;
+  font-weight: 400;
+  src: url("src/assets/fonts/AP-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: AP-Light;
+  font-style: normal;
+  font-weight: 400;
+  src: url("src/assets/fonts/AP-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: AP-LightCondensed;
+  font-style: normal;
+  font-weight: 400;
+  src: url("src/assets/fonts/AP-LightCondensed.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: AP-Italic;
+  font-style: italic;
+  font-weight: 400;
+  src: url("src/assets/fonts/AP-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: AP-Bold;
+  font-style: bold;
+  font-weight: 600;
+  src: url("src/assets/fonts/AP-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: AP-BoldItalic;
+  font-style: bold, italic;
+  font-weight: 600;
+  src: url("src/assets/fonts/AP-BoldItalic.ttf") format("truetype");
+}
+
